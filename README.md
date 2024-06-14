@@ -48,16 +48,7 @@ git clone git@github.com:itsmaica/My-Section-1.git
 ## How to Use
 First, complete the `Setup` section if not already done.
 
-This repo is set up to contain each days lecture material. The `README.md` file included for each day contains the topics, with some notes, and the schedule for the day. The `notes.js` file is to be used to follow along in lecture every day and code along with the lecturer while taking notes. The `lecture.js` file is going to be used by the person lecturing and not to be filled out by anybody else. Once the lecture is finished, the following command should be run to get the contents of the `lecture.js` file:
-```bash
-git pull
-```
-Make sure that you are in the root directory of the `section-1-resources` repo so that you receive the most up to date version of the directory.
-# april-1-24-section-1-resources
-
 ## Notes
-You will not be able to push to this repo, if you want to take notes in this repo I would clone down this repo twice and remove the .git
-- you can do so by cd into the repo after cloning and running rm -rf .git
-* be very careful using rm -rf! It could delete everything in your current directory
+You will not be able to push to this repo.
 
-### Another option would be to to put notes.js in the .gitignore; anytime you take notes it would be done so in a notes.js. This will be ignore by git
+* be very careful using rm -rf! It could delete everything in your current directory
